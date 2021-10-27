@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <form class="login">
+            <h2>LOGIN</h2>
+
+            <div class="user">
+                <i class='bx bx-user-circle' style="color: #b9b8b8;"></i>
+                <label for="ilogin" id="ilogin-label">Username</label>
+                <input type="text" id="ilogin" placeholder="type your user" onfocus="showToolTip(this);" onblur="hiddenToolTip(this);" required />
+            </div>
+
+            
+           
+            <div class="pwd">
+                <label for="ipwd" id="ipwd-label">Password</label>
+                <i class='bx bx-lock' style="color: #b9b8b8;"></i>
+                
+                <i class='bx bx-hide' style="color: #616161;" onclick="showHideIcon();"></i>
+                
+                <input type="password" id="ipwd" placeholder="type your password" onfocus="showToolTip(this);" onblur="hiddenToolTip(this);" required/>
+                <p><a href="#">forgot password?</a></p>
+            </div>
+
+            <button>Login</button>
+
+            <p>Or sign up using </p>
+            <div class="with-login">
+                <ul>
+                    <li><i class='bx bxl-facebook-circle' style="color: #405895;"></i></li>
+                    <li><i class='bx bxl-google-plus-circle' style="color: #d7503d;"></i></li>
+                    <li><i class='bx bxl-twitter' style="color: #47a0ee;"></i></li>
+                </ul>
+            </div>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

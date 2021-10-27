@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&family=Rubik:wght@300;400;500;600&family=Ubuntu:ital,wght@0,300;0,400;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://wallpaperaccess.com/full/2475175.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #1d1d1d, inset 1px 1px rgba(241, 183, 22, 0.863), inset -1px -1px rgba(241, 183, 22, 0.863);
+    text-align: center;
+    padding: 10px 40px;
+    background: rgba(61, 61, 61, 0.466);
+    border: 1px solid rgba(241, 183, 22, 0.863);
+}
+
+.login h2 {
+    color: #fff;
+}
+.user {
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+.user label {
+    font-size: 10pt;
+    font-weight: 200;
+    position: relative;
+    color: #f7e015;
+    left: 80px;
+    bottom: 10px;
+    background: rgba(0, 0, 0, .5);
+    padding: 5px;
+    border-radius: 15px;
+    opacity: 0;
+}
+
+.user input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-left: 2px solid #f77810;
+    outline: none;
+    padding-left: 30px;
+    background: #f8f6f6;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.pwd {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.pwd label {
+    font-size: 10pt;
+    font-weight: 200;
+    position: relative;
+    color: #f7e015;
+    left: 120px;
+    bottom: 10px;
+    background: rgba(0, 0, 0, .5);
+    padding: 5px;
+    border-radius: 15px;
+    opacity: 0;
+}
+
+.pwd input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-left: 2px solid #f77810;
+    outline: none;
+    padding-left: 30px;
+    background: #f8f6f6;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.login button {
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    margin: 10px 0 30px 0;
+    cursor: pointer;
+    background: linear-gradient(135deg, #ff0, #f00);
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+    transition: .3s;
+}
+
+.login button:hover {
+    border: 2px solid #f77810;
+}
+
+.login ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.login ul li {
+    list-style: none;
+    padding: 0px 15px;
+}
+
+.login ul li i {
+    font-size: 25pt;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 50px;
+    padding: 1px;
+}
+
+.login p {
+    font-size: 9pt;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.user i {
+    position: relative;
+    font-size: 15pt;
+    top: 34px;
+    right: 74px;
+}
+
+.pwd .bx-lock {
+    position: relative;
+    font-size: 15pt;
+    top: 34px;
+    right: 140px;
+}
+
+.pwd .bx-show {
+    position: relative;
+    font-size: 15pt;
+    top: 34px;
+    left: 60px;
+    cursor: pointer;
+}
+
+.pwd .bx-hide {
+    position: relative;
+    font-size: 15pt;
+    top: 34px;
+    left: 60px;
+    cursor: pointer;
+}
+
+.pwd p {
+    text-align: end;
+    padding-top: 5px;
+}
+
+.pwd p a {
+    text-decoration: none;
+    color: #fff;
+}
